@@ -1,37 +1,44 @@
+html {
+  min-height: 100vh;
+  background-color: #88b5b4;
+}
+
 body {
   margin: 0;
   padding: 0;
-  border: 0;
+
 }
 
 #root {
     background-color: #88b5b4;
     font-family: sans-serif;
+    text-align: center;
+
 }
 
 #header {
+  padding-top: 30px;
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
 #output-box {
-  background-color: #C0D8D8;
   width: 80%;
-  margin: 0 0 5% 10%;
-  padding: 20px;
+  background-color: #C0D8D8;
+  margin: 0 10% 5% 10%;
   border: 2px solid black;
   box-shadow: 10px 10px 10px #333333;
+  padding: 20px;
 }
 
 #input-box {
   width: 80%;
   border: 2px solid black;
   box-shadow: 10px 10px 10px #333333;
+  margin: 0 10% 0 10%;
   padding: 20px;
-  margin-bottom: 20px;
 }
 
 h2 {
-
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 
 }
