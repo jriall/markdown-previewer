@@ -13,9 +13,11 @@ class InputBox extends Component {
       <div className="row display">
         <h1 id="header">Markdown Previewer</h1>
         <div className="col-md-6 input-column">
+          <h2>Input</h2>
           <textarea id="input-box" rows="26" value={this.state.term} onChange={event => this.onInputChange(event.target.value)} />
         </div>
         <div className="col-md-6 output-column">
+          <h2>Markdown Output</h2>
           <div id="output-box" dangerouslySetInnerHTML={{__html: marked(this.state.term)}} />
         </div>
       </div>
